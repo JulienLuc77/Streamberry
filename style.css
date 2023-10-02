@@ -1,0 +1,37 @@
+body{
+  margin: 0;
+  background-image: url(./img/background.webp);
+  font-family: "Open Sans", sans-serif;
+  background-size: 100%;
+}
+*{
+  box-sizing: border-box;
+}
+nav{
+  background-color: transparent;
+  height: 100px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  form{
+    display: flex;
+    background-color: rgba(0, 0, 0, .75);
+    width: 300px;
+    flex-direction: column;
+    padding: 20px;
+    color: #ffff;
+  }
+}
+input{
+  padding: 12px 20px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+}
+.logo{
+  width: 200px;
+}
