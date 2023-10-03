@@ -48,7 +48,7 @@ nav{
 .row{
   display: flex;
   justify-content: center;
-  gap: 25px;
+  gap: 35px;
 }
 a{
   text-decoration: none;
@@ -128,4 +128,27 @@ h1{
 }
 .profil a{
   text-decoration: none;
+}
+video{
+  width: 100%;
+}
+#video{
+  height: 600px;
+  overflow: hidden;
+}
+#profil1 nav{ 
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+h2{
+  color: #fff;
+}
+.movie{
+  width: 190px;
+  border-radius: 5px;
+}
+.movie:hover{
+  border: 1px solid #6d6d6d;
 }
