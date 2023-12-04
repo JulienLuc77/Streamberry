@@ -191,4 +191,7 @@ h2{
   .nav-bar, a {
     font-size: 12px;
   }
+  #profil1 nav{
+    top: -20px;
+  }
 }
