@@ -185,7 +185,7 @@ h2{
     flex-wrap: wrap;
   }
   .movie {
-    max-width: 100%; /* Assurez-vous que l'image ne dépasse pas la largeur de son conteneur */
+    width: 150px; /* Assurez-vous que l'image ne dépasse pas la largeur de son conteneur */
     height: auto; /* Pour maintenir le ratio hauteur/largeur de l'image */
   }
   .nav-bar, a {
